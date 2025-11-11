@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShoutHub NZ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <img src="assets/logo-dark.png" alt="ShoutHub Logo" class="logo" />
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="deals.html">All Deals</a>
+      <a href="categories.html">Categories</a>
+      <a href="merchant.html">Become a Merchant</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <h1>ShoutHub — NZ’s Deal Marketplace</h1>
+    <p>Exclusive deals across Aotearoa. Buy instantly. Receive your voucher straight to your inbox.</p>
+    <a class="btn btn-yellow" href="#deals">Browse All Deals</a>
+    <a class="btn btn-navy" href="merchant.html">Become a Merchant</a>
+  </div>
+
+  <!-- DEALS (auto from JSON / Sheet) -->
+  <section id="deals">
+    <h2>All Deals</h2>
+    <div id="deals-grid" class="feature-grid" aria-live="polite">
+      <div class="card">Loading deals…</div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how">
+    <h2>How It Works</h2>
+    <div class="feature-grid">
+      <div class="card"><strong>1. Browse Deals</strong><br>Select from beauty, food, activities, home services + more.</div>
+      <div class="card"><strong>2. Purchase Securely</strong><br>Pay via Stripe — cards, Apple Pay, Google Pay.</div>
+      <div class="card"><strong>3. Instant Voucher</strong><br>PDF + QR code emailed instantly.</div>
+      <div class="card"><strong>4. Redeem</strong><br>Show voucher at merchant location.</div>
+    </div>
+  </section>
+
+  <!-- MERCHANT SIGNUP -->
+  <section id="merchant">
+    <h2>Become a Merchant</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">List your deals on ShoutHub for free. No setup fees. No contracts. Grow your business with guaranteed NZ visibility.</p>
+    <br>
+    <div style="text-align:center;">
+      <a class="btn btn-yellow" href="merchant.html">Join Now</a>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <section id="support">
+    <h2>Customer Support</h2>
+    <p style="text-align:center;">Email: support@shouthub.co.nz<br>We reply within 24–48 hours.</p>
+    <div style="text-align:center; margin-top:20px;">
+      <a class="btn btn-navy" href="support.html">Visit Support Page</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 ShoutHub NZ Marketplace — All Rights Reserved<br><br>
+    <small><a href="terms.html" style="color:#FFC300;">Terms</a> • <a href="privacy.html" style="color:#FFC300;">Privacy</a> • <a href="merchant.html" style="color:#FFC300;">Merchant Login</a></small>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
